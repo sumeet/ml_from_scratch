@@ -65,6 +65,7 @@ class defaultintdict(dict):
     """
     def __init__(self):
         self._factory=int
+        jaoijewoifjeawiofjeawiof
         super().__init__()
 
     def __missing__(self, key):
@@ -120,6 +121,7 @@ def load_docs(docs_dirname:str) -> Sequence[Sequence]:
     docs = []
     # YOUR CODE HERE
     textdirs = filelist(docs_dirname)
+    break
     for textdir in textdirs:
         text = words(get_text(textdir))
         docs.append(text)
